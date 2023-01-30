@@ -89,7 +89,7 @@ main {
     cursor: pointer;
 
 }
-@media screen and (max-width: 400px) {
+@media screen and (min-width: 400px) {
     main {
         width: 100vw;
         height: 100vh;
@@ -187,7 +187,6 @@ main {
     .btn:hover{
         background: rgb(20, 66, 49);
         cursor: pointer;
-    
     }
   }
   
