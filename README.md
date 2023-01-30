@@ -10,11 +10,11 @@ Thanks for checking out this front-end coding challenge.
 
 ## Table of contents
 
-- [Author](https://www.linkedin.com/in/denilson-camara/)
+- [Author: Denilson Camara](https://www.linkedin.com/in/denilson-camara/)
 
 ### Links
 
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Live Site URL: [https://denilsoncmr.github.io/product-preview-page/](https://your-live-site-url.com)
 
 ### Built with
 
