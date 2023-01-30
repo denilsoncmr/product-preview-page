@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
-.container{
+main {
     width: 100vw;
     height: 100vh;
     display: flex;
@@ -10,8 +10,7 @@
     background: hsl(30, 38%, 92%);
 }
 .box{
-    width: 40vw;
-    height: 60vh;
+    width: 35vw;
     display: flex;
     flex-direction: row;
     background: white;
@@ -20,34 +19,36 @@
     overflow: hidden;
 }
 .product{
-    width: 30vw;
+    width: 50%;
 }
 .description{
+    width: 15vw;
     padding-right: 2vw;
     padding-left: 2vw;
 }
 .titlle{
-    padding-top: 5vh;    
+    padding-top: 4vh;    
     font-family: 'Montserrat', sans-serif;
     text-transform: uppercase;
     opacity: 0.8;
-    font-size: 0.8vw;
-    letter-spacing: 0.5vw;
+    font-size: 0.6rem;
+    letter-spacing: 0.2em;
     color: hsl(212, 21%, 14%);
 
 }
 .principal-titlle{
+    width: 12vw;
     font-family: 'Fraunces', serif;
-    font-size: 2.5vw;
-    padding-top: 3vh;
+    font-size: 1.7rem;
+    padding-top: 2vh;
 }
 .product-description{
     width: 14vw;
     font-family: 'Montserrat', sans-serif;
-    font-size: 0.8vw;
+    font-size: 0.8rem;
     color: hsl(212, 21%, 14%);
     margin-top: 3vh;
-    line-height: 120%;
+    line-height: 150%;
     opacity: 0.8;
 }
 .price{
@@ -55,17 +56,16 @@
     color: hsl(158, 36%, 37%);
     display: inline-block;
     margin-top: 3vh;
-    font-size: 2vw;    
+    font-size: 2rem;    
 }
 .old-price{
     display: inline-block;
     font-family: 'Montserrat', sans-serif;
     text-decoration: line-through;
-    padding-left: 1.5vw;
+    padding-left: 1vw;
     opacity: 0.8;
     color: hsl(212, 21%, 14%);
-    font-size: 0.8vw;
-    padding-bottom: 5px;
+    font-size: 0.7rem;
     vertical-align:super;
 
 }
@@ -77,7 +77,7 @@
     background: hsl(158, 36%, 37%);
     border: none;
     border-radius: 8px;
-    width: 16vw;
+    width: 14vw;
     padding: 1.5vh 0 1.5vh 0;
 }
 .cart{
